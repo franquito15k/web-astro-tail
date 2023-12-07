@@ -1,54 +1,6 @@
-# Astro Starter Kit: Basics
-
-```sh
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# PracticaWeb-Astro-Tailwind
+1. Investiguen, qué es el framework astro y como funciona
+2. Fíjense como funciona la instalación y todo lo que necesitan para hacerlo funcionar
+3. Hagan que funcionen 3 páginas diferentes en su localhost, /home, /about y /repeat=(lo que sea)
+En Home simplemente pongan Home en texto de 3 rem en el centro superior. En about cualquier texto que se les # ocurra o un lorem ipsum, justificado hacia la izquierda superior y con un padding de 20px hacía todas las # direcciones. Y por último, en repeat, que puedas poner en el link cualquier palabra o texto y este mismo aparezca en el centro de la pantalla en mayúsculas con un texto de 3 rem.
+4. Por último, armen una top bar que tenga 3 botones, uno para ir a Home, otro para ir a About y otro para ir a repeat, eso implica también que repeat va a tener que tener un texto default. La barra debe ser visible en las 3 páginas y el botón de la página actual DEBE ESTAR DESHABILITADO. 
