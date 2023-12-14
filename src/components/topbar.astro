@@ -1,0 +1,28 @@
+---
+const currentPath: string = Astro.url.pathname;
+const home: string = 'http://localhost:4321/';
+const about: string = 'http://localhost:4321/about';
+const video: string = 'http://localhost:4321/video';
+
+
+const isHome = (currentPath: string, home: string): boolean => {
+   return currentPath === home;
+}
+const isabout = (currentPath: string, about: string): boolean => {
+   return currentPath === about;
+}
+const isvideo = (currentPath: string, video: string): boolean => {
+   return currentPath === video;
+}
+---
+
+<nav class="bg-blue-950 p-4">
+  <div class="container mx-auto flex space-x-4 justify-between">
+    <div class="flex space-x-4 bg-red-800 opacity-79 text-white">
+      <a href={isHome(currentPath, "http://localhost:4321/") ? '#' : "http://localhost:4321/"}>Home</a>
+      <a href={isabout(currentPath, "http://localhost:4321/about") ? '#' : "http://localhost:4321/about"}>About</a>
+      <a href={isvideo(currentPath, "http://localhost:4321/video") ? '#' : "http://localhost:4321/video"}>Video</a>
+
+    </div>
+  </div>
+</nav>

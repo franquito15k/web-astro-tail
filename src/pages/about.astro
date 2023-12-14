@@ -1,23 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from '../components/Card.astro';
+import Navegation from '../components/topbar.astro'
 
 ---
 
 <Layout title="About As">
-	<main>
-		<nav class="bg-blue-950 p-4">
-			<div class="container mx-auto flex space-x-4 justify-between">
-				<div class=" flex space-x-4 bg-red-800 opacity-79">
-					<a href="http://localhost:4321/" class="text-white">Home</a>
-					<a href="http://localhost:4321/about" class="text-white">About</a>
-					<a href="http://localhost:4321/video" class="text-white">Repeat</a>
-					
-				</div>
-			</div>
-		</nav>
-	</main>
-
+	
+	<Navegation />
+	
 	<div class="p-16">
 		<div class="bg-[#7c9bdb] flex rounded-md p-4">
 			<h1 class="text-white text-3xl">
